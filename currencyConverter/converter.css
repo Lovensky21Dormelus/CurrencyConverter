@@ -1,0 +1,241 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5rem 2rem;
+    background: linear-gradient(90deg,rgb(224, 145, 204),rgb(139, 3, 202));
+}
+
+.input-container{
+    display: flex;
+    flex-direction: column;
+    
+}
+.input-container input{
+    min-width:100% ;
+    font-size: 25px;
+    font-weight:bold ;
+    height: 50px;
+    border-radius: 10px;
+    border: 1px solid rgb(243, 237, 237);
+    box-shadow: 3px 2px 15px #a3a0a0;
+    padding: 0.5rem 1rem;
+}
+.currency-to-currency-container{
+    border-radius:  10px; 
+    
+    
+    border: 1px solid #fff;
+    padding: 0.5rem;
+    
+
+
+}
+.general-container{
+    border: #FFF 1px solid;
+    padding: 2rem;
+    background-color: black;
+    display: flex;
+    gap: 2rem;
+
+
+}
+.crypto-to-currency-container{
+    
+    border-radius: 10px;
+    padding: 2rem;
+}
+
+
+.converter-container{
+    min-width: 200px;
+    min-height: 100px;
+
+    
+    display: flex;
+    flex-direction: column;
+    
+    padding: 0.5rem;
+    gap: 2rem;
+    
+    
+    
+     flex-wrap: wrap;
+    
+    
+}
+.convert-section{
+    display: flex;
+
+
+    justify-content: center;
+    align-items: center;
+    
+    flex-wrap: wrap;
+    
+    
+    
+    
+
+    
+    
+    
+    
+}
+select{
+
+    font-size: 15px;
+    font-weight: 700;
+    box-shadow: 1px 1px 8px #a3a0a0;
+    border: 1px solid #FFF;
+    border-radius: 10px;
+    padding: 0.5rem 1rem;
+
+}
+.select-section{
+    min-width: 40%;
+    min-height: 80%;
+    
+    
+    display: flex;
+    
+    
+    flex-direction: column;
+    
+    
+
+}
+span{
+font-size: 20px;
+ 
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color:rgb(48, 45, 45);
+  
+
+
+
+
+}
+.title{
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    font-style: normal;
+    color:rgb(48, 45, 45);
+}
+.result{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    
+    font-family: "Roboto", sans-serif;
+    color: rgb(48, 45, 45);
+    justify-content: center;
+    align-items: center;
+    font-weight: 800;
+    font-style: normal;
+    padding: 1rem 2rem;
+    font-size: 25px;
+    gap: 1rem;
+    justify-content: space-between;
+}
+.button-container{
+    
+    display: flex;
+    flex-wrap: wrap;
+    
+    padding: 1rem;
+    gap: 2rem;
+}
+ .button-container button{
+    background: rgb(42, 42, 206);
+    padding: 0.8rem 2rem;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    border: 1px solid  rgb(42, 42, 206);
+    border-radius: 10px;
+    color: #fff;
+
+ }
+ .button-container button:hover{
+    background-color: rgb(219, 86, 179);
+    border: rgb(219, 86, 179) 1px solid;
+
+ }
+
+
+ .exchange-icons{
+margin-top: 25px;
+
+ }
+ .exchange-icons img{
+    width: 30px;
+ }
+ option{
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    
+
+ }
+ @media (max-width:450px){
+    .general-container{
+        padding: 1rem 0 ;
+    }
+    p{
+        font-size: 10px;
+    }
+    h1{
+        font-size: 20px;
+    }
+    h2{
+        font-size: 15px;
+    }
+    .button-container{
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .button-containe button{
+        padding:0.5rem;
+    
+    }
+    .convert-section{
+        display: flex;
+        flex-direction: column;
+    
+    }
+    .result{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .select-section{
+        width: 100%;
+    }
+    span{
+        font-size: 13px;
+    }
+ }
+ 
+ 
+ 
+
+
+
+
+
+
